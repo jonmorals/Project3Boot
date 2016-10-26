@@ -1,0 +1,12 @@
+spring:
+ datasource:
+   url: jdbc:oracle:thin:@stack-db.c6r4rkm1mnmg.us-east-1.rds.amazonaws.com:1521:orcl
+   username: stack_db
+   password: p4ssword
+   driver-class-name: oracle.jdbc.OracleDriver
+   platform: oracle
+ jpa:
+   database: ORACLE
+   show-sql: true
+server:
+  port: 8022
